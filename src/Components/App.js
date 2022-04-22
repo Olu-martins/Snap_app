@@ -10,26 +10,40 @@ import UpdateProfile from "./UpdateProfile";
 
 function App() {
 	return (
-		<Container
-			className="d-flex align-items-center justify-content-center"
-			style={{ minHeight: "100vh" }}
-		>
-			<div className="w-100" style={{ maxWidth: "" }}>
-				<Router>
-					<AuthProvider>
-						<Routes>
-							<Route element={<ProtectedRoute />}>
-								<Route path="/" element={<Dashboard />} />
-								<Route path="/update-profile" element={<UpdateProfile />} />
-							</Route>
+		<>
+			<Router>
+				<AuthProvider>
+					<Routes>
+						<Route element={<ProtectedRoute />}>
+							<Route path="/" element={<Dashboard />} />
+						</Route>
 							<Route path="/login" element={<Login />} />
 							<Route path="/signup" element={<SignUp />} />
-							<Route path="/forgot-password" element={<ForgotPassword />} />
-						</Routes>
-					</AuthProvider>
-				</Router>
-			</div>
-		</Container>
+		 					<Route path="/forgot-password" element={<ForgotPassword />} />
+					</Routes>
+				</AuthProvider>
+			</Router>
+		</>
+		// <Container
+		// 	className="d-flex align-items-center justify-content-center"
+		// 	style={{ minHeight: "100vh" }}
+		// >
+		// 	<div className="w-100" style={{ maxWidth: "" }}>
+		// 		<Router>
+		// 			<AuthProvider>
+		// 				<Routes>
+		// 					<Route element={<ProtectedRoute />}>
+		// 						<Route path="/" element={<Dashboard />} />
+		// 						<Route path="/update-profile" element={<UpdateProfile />} />
+		// 					</Route>
+		// 					<Route path="/login" element={<Login />} />
+		// 					<Route path="/signup" element={<SignUp />} />
+		// 					<Route path="/forgot-password" element={<ForgotPassword />} />
+		// 				</Routes>
+		// 			</AuthProvider>
+		// 		</Router>
+		// 	</div>
+		// </Container>
 	);
 }
 

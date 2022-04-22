@@ -30,7 +30,7 @@ const navLinks = [
   },
 ];
 
-const Header = ({ noBackgroundColor, userName = "John Doe" }) => {
+const Header = ({ noBackgroundColor, userName = "User Profile" }) => {
   const menuRef = useRef();
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
@@ -41,7 +41,7 @@ const Header = ({ noBackgroundColor, userName = "John Doe" }) => {
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> E-Learning.
+              <i class="ri-pantone-line"></i> Snaplearn
             </h2>
           </div>
 

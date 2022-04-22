@@ -3,7 +3,7 @@ import { colors, fontSizes, fontWeight } from "../../lib/theme";
 
 export const HeaderWrapper = styled("header")`
   width: 100%;
-  height: 45px;
+  height: 80px;
   display: flex;
   line-height: 80px;
   align-items: center;
