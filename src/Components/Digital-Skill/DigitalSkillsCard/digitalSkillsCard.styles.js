@@ -4,7 +4,7 @@ import { colors, fontSizes, fontWeight } from "../../../lib/theme";
 
 export const InterestCardWrapper = styled("section")`
   padding: 24px;
-  width: 552px;
+  width: 610px;
   height: 190px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,6 +16,7 @@ export const InterestCardWrapper = styled("section")`
   border: 0.1px solid #8080800f;
   background-color: ${colors.text};
   transition: all 100ms ease-in-out;
+  margin: 10px;
 
   &:hover {
     box-shadow: 0px 0px 5px -2px ${colors.secondary};
