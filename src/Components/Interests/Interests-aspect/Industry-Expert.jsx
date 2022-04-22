@@ -10,7 +10,7 @@ const IndustryExpert = ({ cardImage, cartText }) => {
       </div>
       <span className="card_text_wrapper">
         {" "}
-        {cartText || "Industry Expert"}
+        {cartText || "Industry Experts"}
       </span>
     </InterestCardWrapper>
   );

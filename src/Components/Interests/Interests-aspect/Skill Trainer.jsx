@@ -10,7 +10,7 @@ const SkillTrainer = ({ cardImage, cartText }) => {
       </div>
       <span className="card_text_wrapper">
         {" "}
-        {cartText || "Skill Trainer"}
+        {cartText || "Skill Providers"}
       </span>
     </InterestCardWrapper>
   );

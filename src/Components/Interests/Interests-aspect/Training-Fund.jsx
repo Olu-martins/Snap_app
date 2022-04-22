@@ -10,7 +10,7 @@ const TrainingFund = ({ cardImage, cartText }) => {
       </div>
       <span className="card_text_wrapper">
         {" "}
-        {cartText || "Training Fund"}
+        {cartText || "Training Funds"}
       </span>
     </InterestCardWrapper>
   );

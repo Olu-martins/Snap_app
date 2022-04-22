@@ -10,7 +10,7 @@ const TradeUnion = ({ cardImage, cartText }) => {
       </div>
       <span className="card_text_wrapper">
         {" "}
-        {cartText || "Trade Union"}
+        {cartText || "Trade Unions"}
       </span>
     </InterestCardWrapper>
   );

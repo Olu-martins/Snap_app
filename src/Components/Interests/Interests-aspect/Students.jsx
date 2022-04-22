@@ -10,7 +10,7 @@ const StudentCard = ({ cardImage, cartText }) => {
       </div>
       <span className="card_text_wrapper">
         {" "}
-        {cartText || "Student"}
+        {cartText || "Students"}
       </span>
     </InterestCardWrapper>
   );

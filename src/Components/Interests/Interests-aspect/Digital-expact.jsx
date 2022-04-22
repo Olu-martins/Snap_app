@@ -10,7 +10,7 @@ const DigitalExpact = ({ cardImage, cartText }) => {
       </div>
       <span className="card_text_wrapper">
         {" "}
-        {cartText || "Digital Expact"}
+        {cartText || "Digital Expacts"}
       </span>
     </InterestCardWrapper>
   );
