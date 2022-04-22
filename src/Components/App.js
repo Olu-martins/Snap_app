@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
 import { AuthProvider } from "./Contexts/AuthContext";
 import SignUp from "./SignUp";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -6,7 +6,7 @@ import Dashboard from "./Dashboard";
 import Login from "./Login";
 import ProtectedRoute from "./ProtectedRoute";
 import ForgotPassword from "./ForgotPassword";
-import UpdateProfile from "./UpdateProfile";
+// import UpdateProfile from "./UpdateProfile";
 
 function App() {
 	return (

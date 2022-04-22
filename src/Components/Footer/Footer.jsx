@@ -20,19 +20,19 @@ const Footer = () => {
           </Col>
 
           <Col lg="3" md="6" className="explore">
-            <a href="#">
+            <button >
             <h5 className="fw-bold">Term of use</h5>
-            </a>       
+            </button>       
           </Col>
           <Col lg="3" md="6" className="mb-4">
-            <a href="#">
+            <button>
             <h5 className="fw-bold">Privacy Policy</h5>
-            </a>           
+            </button>           
           </Col>
           <Col lg="3" md="6">
-            <a href="#">
+            <button>
             <h5 className="fw-bold">Get in Touch</h5>
-            </a>
+            </button>
             <p>Address: Lagos Nigeria</p>            
             <p>Email: Snaplearn@newafrica.com</p>
           </Col>

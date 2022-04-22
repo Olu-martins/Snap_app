@@ -25,3 +25,9 @@
 .list{
   color: #fff;
 }
+
+button{
+  background: none;
+  border: none;
+  color: #fff;
+}
