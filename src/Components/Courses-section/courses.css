@@ -15,7 +15,7 @@
 }
 
 .lesson,
-.students,
+.hours,
 .rating {
   font-size: 0.9rem;
   color: #0a2b1e;
@@ -23,7 +23,7 @@
 }
 
 .lesson i,
-.students i,
+.hours i,
 .rating i {
   font-weight: 400;
 }

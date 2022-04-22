@@ -10,7 +10,7 @@ import pic6 from "../../../assests/images/SME Owner@2.png";
 let cardData = [
   {
     image: pic1,
-    text: "Gathers the major digital skills initiatives from across Europe. ",
+    text: "Gathers the major digital skills initiatives from across Africa. ",
   },
   {
     image: pic2,
@@ -42,7 +42,7 @@ const InterestCard = ({ cardImage, cartText }) => {
       <span className="card_text_wrapper">
         {" "}
         {cartText ||
-          "Gathers the major digital skills initiatives from across Europe. "}
+          "Gathers the major digital skills initiatives from across Africa. "}
       </span>
     </InterestCardWrapper>
   );

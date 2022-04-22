@@ -1,7 +1,7 @@
 import React from "react";
 
 const CourseCard = (props) => {
-  const { imgUrl, title, lesson, students, rating } = props.item;
+  const { imgUrl, title, lesson, hours, rating } = props.item;
 
   return (
     <div className="single__course__item">
@@ -17,14 +17,14 @@ const CourseCard = (props) => {
             <i class="ri-book-open-line"></i> {lesson} Lessons
           </p>
 
-          <p className="students d-flex align-items-center gap-1">
-            <i class="ri-user-line"></i> {students}K
+          <p className="hours d-flex align-items-center gap-1">
+            <i class="ri-user-line"></i> {hours}hours
           </p>
         </div>
 
         <div className=" d-flex justify-content-between align-items-center">
           <p className="rating d-flex align-items-center gap-1">
-            <i class="ri-star-fill"></i> {rating}K
+            <i class="ri-star-fill"></i> {rating}*
           </p>
 
           <p className="enroll d-flex align-items-center gap-1">

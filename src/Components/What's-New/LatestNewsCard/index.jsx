@@ -21,7 +21,7 @@ const InterestCard = ({
       <span>
         {" "}
         {cartText ||
-          "Gathers the major digital skills initiatives from across Europe. "}
+          "Gathers the major digital skills initiatives from across The world. "}
       </span>
       <span>
         <button
