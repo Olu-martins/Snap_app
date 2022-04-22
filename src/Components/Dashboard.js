@@ -10,6 +10,8 @@ import HeroSection from "../Components/Hero-Section/HeroSection";
 import Courses from "../Components/Courses-section/Courses";
 
 import Footer from "../Components/Footer/Footer";
+// import '../index.css'
+
 
 export default function Dashboard() {
 	const [error, setError] = useState("");
@@ -28,24 +30,24 @@ export default function Dashboard() {
 	}
 
 	return (
-		<>
-			<Card>
+		<>		
+			<Header />
+			<HeroSection />	
+			<Card className="w-50">
 				<Card.Body>
-					<h1 className="text-center mb-3">{"Profile"}</h1>
+					<h1 className="text-center mb-3">{"User Profile"}</h1>
 					{error && <Alert variant="danger">{error}</Alert>}
 					<strong>{"Email:"}</strong> {currentUser.email}
 					<Link to="/update-profile" className="btn btn-primary w-100 mt-3">
 						{"Update Profile"}
 					</Link>
 				</Card.Body>
-			</Card>
-			<div className="w-100 text-center mt-2">
+			<div className="w-50 text-left mt-2">
 				<Button variant="link" onClick={handleLogout}>
 					{"Log out"}
 				</Button>
-			</div>
-			<Header />
-			<HeroSection />					
+			</div>				
+			</Card>
 			<Courses />			
 							
 			<Footer />

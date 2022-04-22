@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
-import "./header.css";
+import { HeaderWrapper } from "./header.styles.js";
 
 const navLinks = [
   {
@@ -8,45 +8,49 @@ const navLinks = [
     url: "#",
   },
   {
-    display: "About",
+    display: "Opportunities",
     url: "#",
   },
 
   {
-    display: "Courses",
+    display: "Inspiration",
     url: "#",
   },
   {
-    display: "Pages",
+    display: "Latest",
     url: "#",
   },
   {
-    display: "Blog",
+    display: "Community",
+    url: "#",
+  },
+  {
+    display: "About",
     url: "#",
   },
 ];
 
-const Header = () => {
+const Header = ({ noBackgroundColor, userName = "John Doe" }) => {
   const menuRef = useRef();
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
 
   return (
-    <header className="header">
+    <HeaderWrapper noBackgroundColor={noBackgroundColor}>
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+              <i class="ri-pantone-line"></i> E-Learning.
             </h2>
           </div>
 
           <div className="nav d-flex align-items-center gap-5">
             <div className="nav__menu" ref={menuRef} onClick={menuToggle}>
               <ul className="nav__list">
-                {navLinks.map((item, index) => (
+                {navLinks.map((link, index) => (
                   <li key={index} className="nav__item">
-                    <a href={item.url}>{item.display}</a>
+                    <a href={link.url}>{link.display}</a>
                   </li>
                 ))}
               </ul>
@@ -54,7 +58,7 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i class="ri-phone-line"></i> +88 0123456789
+                <i class="ri-user-line"></i> {userName}
               </p>
             </div>
           </div>
@@ -66,7 +70,7 @@ const Header = () => {
           </div>
         </div>
       </Container>
-    </header>
+    </HeaderWrapper>
   );
 };
 
