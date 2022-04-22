@@ -1,5 +1,7 @@
 .footer {
-  background: rgba(226, 248, 248, 0.664);
+  background: rgb(33, 10, 86);
+  color: #fff;
+  padding: 50px 0px 0px 0px;
 }
 
 .follows span a {
@@ -18,4 +20,8 @@
   text-decoration: none;
   color: #0a2b1e;
   font-weight: 500;
+}
+
+.list{
+  color: #fff;
 }
