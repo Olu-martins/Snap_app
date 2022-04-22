@@ -11,6 +11,8 @@ import Courses from "./Courses-section/Courses";
 
 import Footer from "./Footer/Footer";
 import './Dashboard.css'
+import { Interests } from "./Interests/Interests";
+
 
 export default function Dashboard() {
 	const [error, setError] = useState("");
@@ -45,7 +47,7 @@ export default function Dashboard() {
 			</div>
 			<Header />
 			<HeroSection />
-
+			<Interests />
 			<Courses />
 
 			<Footer />

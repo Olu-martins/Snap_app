@@ -11,11 +11,11 @@ const HeroSection = () => {
           <Col lg="6" md="6">
             <div className="hero__content">
               <h2 className="mb-4 hero__title">
-                <b> Welcome to <br /> the Digital Skills<br /> and Jobs Platform</b>
+                <b> Welcome to <br /> the Digital Skills and<br /> African career initiative platform</b>
               </h2>
               <p className="mb-5">
                <b>  Combination of expertise, proficiency, and commitment 
-                 <br /> leveraging deep industry experience,along with using analytical
+                 <br /> leveraging industry experience,along with using analytical
                  <br />   rigor to drive outstanding results for businesses in Nigeria/Africa. 
                </b>  
                

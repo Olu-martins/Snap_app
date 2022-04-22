@@ -1,6 +1,6 @@
 .hero__content h2 {
   font-weight: 600;
-  line-height: 55px;
+  line-height: 50px;
 }
 
 .hero__content {
@@ -9,7 +9,7 @@
 }
 
 .hero__content p{
-  line-height: 45px;
+  line-height: 35px;
 }
 
 .search input {
@@ -40,9 +40,10 @@
 }
 
 .hero{
-  height: 80vh;
+  height: 85vh;
   background: url('../../assests/images/hero03.jpg');
   background-position:center;
   background-repeat: no-repeat;
   background-size:cover;  
+  z-index: 1;
 }
