@@ -10,6 +10,7 @@ import Footer from "./Footer/Footer";
 import './Dashboard.css'
 import { Interests } from "./Interests/Interests";
 import Digitalskill from "./Digital-Skill/DigitalSkill";
+import Company from "./Company-section/Company";
 
 
 export default function Dashboard() {
@@ -46,8 +47,7 @@ export default function Dashboard() {
 			<Header />
 			<HeroSection />
 			<Interests />
-			<Digitalskill /> 
-			<Courses />
+			<Digitalskill /> 					
 			<Footer />
 		</>
 	);

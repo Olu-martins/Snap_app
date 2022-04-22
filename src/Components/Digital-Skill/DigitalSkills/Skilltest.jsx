@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, InterestCardWrapper } from "../DigitalSkillsCard/digitalSkillsCard.styles";
-import pic from "../../../assests/images/hands_illustration.png";
+import pic from "../../../assests/images/website_0.png";
 
 const Skilltest = ({ cardImage, cartText }) => {
   return (
@@ -15,7 +15,9 @@ const Skilltest = ({ cardImage, cartText }) => {
           {cartText ||
             `Assess your digital skills level in an easy and interactive way.
              Find out where your strengths and weaknesses are and get targeted
-              suggestions for appropriate training and courses. Digital Europe Programme logo Digital Europe Programme
+              suggestions for appropriate training and courses.Users would be expected to 
+              take on business-critical projects and gain relevant work experience.
+
 `}
         </div>
       </span>
