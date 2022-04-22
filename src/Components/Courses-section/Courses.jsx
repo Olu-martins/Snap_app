@@ -10,7 +10,7 @@ const coursesData = [
 	{
 		id: "01",
 		title: "Ultimate Web Designer & Web Developer Courses",
-		lesson: 12,
+		lesson: 35,
 		hours: 128,
 		rating: 5,
 		imgUrl: courseImg1,
@@ -19,7 +19,7 @@ const coursesData = [
 	{
 		id: "02",
 		title: "The Absolute Beginners Guide to Cyber Security ",
-		lesson: 12,
+		lesson: 27,
 		hours: 94,
 		rating: 5,
 		imgUrl: courseImg2,
@@ -28,7 +28,7 @@ const coursesData = [
 	{
 		id: "03",
 		title: "The Complete Financial Analyst & Investing Courses",
-		lesson: 12,
+		lesson: 52,
 		hours: 63,
 		rating: 5,
 		imgUrl: courseImg3,
@@ -38,7 +38,7 @@ const coursesData = [
 const Courses = () => {
 	return (
 		<section>
-			<Container>
+			<Container className="course">
 				<Row>
 					<Col lg="12" className="mb-5">
 						<div className="course__top d-flex justify-content-between align-items-center">
@@ -46,7 +46,7 @@ const Courses = () => {
 								<h2>Selection of courses</h2>
 								<p>
 									Learning that gets you Skills for your present (and your
-									future). Get started with us! <br /> Choose from variety of online video courses with new additions published every month
+									future). Get started with us! <br /> Choose from variety of online video courses with new additions published regularly
 								</p>
 							</div>
 
