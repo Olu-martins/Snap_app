@@ -1,32 +1,34 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import heroImg from "../../assests/images/hero-img1.png";
+import heroImg from "../../assests/images/hero-img1.jpg";
 import "./hero-section.css";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="hero">
       <Container>
         <Row>
           <Col lg="6" md="6">
             <div className="hero__content">
               <h2 className="mb-4 hero__title">
-                Anytime Anywhere <br /> Learn on your <br /> Suitable Schedule
+                <b> Welcome to <br /> the Digital Skills<br /> and Jobs Platform</b>
               </h2>
               <p className="mb-5">
-                Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit.
-                Aut saepe voluptatum earum delectus <br /> deserunt id iste,
-                quas officiis et repellat!
+               <b>  Combination of expertise, proficiency, and commitment 
+                 <br /> leveraging deep industry experience,along with using analytical
+                 <br />   rigor to drive outstanding results for businesses in Nigeria/Africa. 
+               </b>  
+               
               </p>
             </div>
             <div className="search">
-              <input type="text" placeholder="Search" />
-              <button className="btn">Search</button>
+              {/* <input type="text" placeholder="Search" /> */}
+              <button className="btn">Get Started With Us</button>
             </div>
           </Col>
 
           <Col lg="6" md="6">
-            <img src={heroImg} alt="" className="w-100 hero__img" />
+            {/* <img src={heroImg} alt="" className="w-100 hero__img" /> */}
           </Col>
         </Row>
       </Container>

@@ -1,0 +1,6 @@
+.w-100{
+    display: flex;
+    color: rgb(0, 128, 60);
+    align-items: flex-end;
+    /* style={{ color: "green"}} */
+}
