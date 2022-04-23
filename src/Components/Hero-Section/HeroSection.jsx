@@ -21,14 +21,12 @@ const HeroSection = () => {
                
               </p>
             </div>
-            <div className="search">
-              {/* <input type="text" placeholder="Search" /> */}
+            <div className="search">              
               <button className="btn">Get Started With Us</button>
             </div>
           </Col>
 
-          <Col lg="6" md="6">
-            {/* <img src={heroImg} alt="" className="w-100 hero__img" /> */}
+          <Col lg="6" md="6">            
           </Col>
         </Row>
       </Container>

@@ -46,7 +46,8 @@ const Courses = () => {
 								<h2>Selection of courses</h2>
 								<p>
 									Learning that gets you Skills for your present (and your
-									future). Get started with us! <br /> Choose from variety of online video courses with new additions published regularly
+									future). Get started with us! <br /> Choose from variety of
+									online video courses with new additions published regularly
 								</p>
 							</div>
 

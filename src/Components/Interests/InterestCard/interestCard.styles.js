@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { colors, fontWeight } from "../../../lib/theme";
-// import heroImg from "../../../assests/images/hero-img1.png";
 
 export const InterestCardWrapper = styled("section")`
   height: 130px;

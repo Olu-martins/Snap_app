@@ -13,7 +13,6 @@ export default function SignUp() {
 	const [loading, setLoading] = useState(false)
 	const navigate = useNavigate()
 
-
 	async function handleSubmit(e) {
 		e.preventDefault()
 

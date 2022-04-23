@@ -1,9 +1,7 @@
 import styled from "styled-components";
 import { colors, fontSizes, fontWeight } from "../../../lib/theme";
-// import heroImg from "../../../assests/images/hero-img1.png";
 
-export const CommunityActivitiesCardWrapper = styled("section")`
-  /* min-width: 633px; */
+export const CommunityActivitiesCardWrapper = styled("section")`  
   height: 150px;
   padding: 24px;
   border-radius: 6px;
@@ -26,8 +24,7 @@ export const CommunityActivitiesCardWrapper = styled("section")`
     overflow: hidden;
   }
   .span {
-    height: 15%;
-    /* width: 100%; */
+    height: 15%;    
     color: ${colors.gray};
     font-size: ${fontSizes.md};
 
@@ -63,6 +60,5 @@ export const CommunityActivitiesCardWrapper = styled("section")`
   }
 `;
 
-export const Image = styled("img")`
-  /* height: 100%; */
+export const Image = styled("img")`  
 `;
