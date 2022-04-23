@@ -1,0 +1,19 @@
+.newstrends{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.whatsnew{
+    max-width: 85%;
+    margin: 0 auto;
+    color: rgb(89, 43, 226);
+    padding: 10px;
+    text-decoration: underline;    
+}
+
+.whatsnew :hover{
+cursor: pointer;
+}

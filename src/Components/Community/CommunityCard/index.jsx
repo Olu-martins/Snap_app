@@ -1,8 +1,10 @@
 import React from "react";
+
 import {
   Image,
   CommunityActivitiesCardWrapper,
 } from "./communityActivitiesCard.styles";
+
 import pic from "../../../assests/images/hands_illustration.png";
 
 const InterestCard = ({ cardImage, cartText }) => {
