@@ -1,16 +1,16 @@
 # About the app
--Snaplearn is a react APP built with version "react": "^18.0.0"
+-Snaplearn is a Static Single Page react APP built with version "react": "^18.0.0"
 you will need a corresponding version on your machine to run the app. if you use a lower version you can update your own software version. 
 -The backend and user authentication is built with firebase version 9 install. if you visit the hosted app url, you wont need firebase installation, but if you wish to run this code on your machine you may need to sign up and install firebase. ii describe the step in this documentation as well.  
 
 # Sign up 
 * To use the hosted app you will need an email and password. for testing you can use a desposable temp email so that you need to protect your official or personal email, since this app is just a test app. 
 You can create a desposable temp email for use here : https://temp-mail.org/en/
- # Features 
--Sign up screen
+ # Features  Note* all screens are desktop resolution designs
+-Sign up screen 
 -Login screen
 -Retrieve Email screen
--App main screen
+-App main screen - The main app page is static SPA
 -firebase backend authentication
 
 
