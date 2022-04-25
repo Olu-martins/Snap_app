@@ -40,9 +40,10 @@
 
 .hero {
 	height: 85vh;
-	background: url("../../assests/images/hero03.jpg");
+	background: linear-gradient(to right, rgba(13, 11, 144, 0.7), rgba(8, 8, 148, 0.3)), url("../../assests/images/hero03.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: 1;
+	/* background: linear-gradient(to right, rgba(13, 11, 144, 0.7), rgba(8, 8, 148, 0.7)); */
 }
