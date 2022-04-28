@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { Form, Button, Card, Alert, Container } from "react-bootstrap";
 import { useAuth } from "./Contexts/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
-import "./signup.css";
+import "./login.css";
 
 export default function SignUp() {
 	const emailRef = useRef();
@@ -33,9 +33,12 @@ export default function SignUp() {
 
 	return (
 		<div className="main">
-			<div className="aside"></div>
-			<Container className="signup">
-				<Card>
+			<div className="aside-container">
+				<div className="aside-content"> </div>
+			</div>
+			<div  className="login-container">
+			<Container className="card-container">
+				<Card className="card">
 					<Card.Body>
 						<h2 className="text-center mb-3">{"Sign Up"}</h2>
 						{error && <Alert variant="danger">{error}</Alert>}
@@ -62,11 +65,11 @@ export default function SignUp() {
 						</Form>
 					</Card.Body>
 				</Card>
-
-				<div className="w-100 text-center mt-2">
+				<div className="w-100 text-center mt-2 card-links">
 					{"Already have an account?"} <Link to="/login">{"Log In"}</Link>
 				</div>
 			</Container>
+			</div>
 		</div>
 	);
 }
